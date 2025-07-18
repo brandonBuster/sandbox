@@ -10,7 +10,7 @@
             }
         }
     },
-    "postCreateCommand": "terraform -install-autocomplete",
+    "postCreateCommand": "terraform -install-autocomplete && curl -Ls https://astral.sh/uv/install.sh | bash",
     "remoteUser": "vscode",
     "features": {}
 }
